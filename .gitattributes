@@ -1,0 +1,6 @@
+# Wymuszenie końców linii LF — inaczej skrypt startowy Codespace
+# przyjedzie z Windowsa z CRLF i bash odmówi jego uruchomienia.
+* text=auto eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
